@@ -32,7 +32,7 @@ VALUES
     (3, 'IT'),
     (4, 'Marketing');
 
-# Subquery
+# Subquery:
 SELECT emp_id, emp_name, salary, dept_id
 FROM employees
 WHERE salary > (
