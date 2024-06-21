@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("Joins in Dataframe").getOrCreate()
 
-# Method 1: Create DataFrame from an existing collect
+# Method : Create DataFrame from an existing collect
 emp= [(1,"Sathya", 24), (2,"Eniyan",16), (3,"Ambika", 50),(4,"Ravi",55),(5,"Priya",25)]
 df1 = spark.createDataFrame(emp, ["emp_id","Name", "Age"])
 print("DataFrame 1:",df1)
