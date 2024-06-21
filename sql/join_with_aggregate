@@ -33,7 +33,7 @@ VALUES
     (4, 'Marketing');
 
 
-#Join and Aggregate Function
+#Join and Aggregate Function:
 SELECT dept_name, AVG(salary) AS avg_salary
 FROM departments
 INNER JOIN employees ON departments.dept_id = employees.dept_id
