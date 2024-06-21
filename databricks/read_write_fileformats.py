@@ -1,4 +1,4 @@
-# Databricks notebook source
+# Databricks notebook source file.
 dbfs_path="dbfs:/FileStore/shared_uploads/sathyapriya.r@diggibyte.com/house_prediction-4.csv"
 df = spark.read.csv(dbfs_path, header=True, inferSchema=True)
 
