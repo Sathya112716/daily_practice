@@ -1,4 +1,4 @@
-# Databricks notebook source
+# Databricks notebook source file
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType
 
