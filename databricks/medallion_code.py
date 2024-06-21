@@ -1,4 +1,4 @@
-# Databricks notebook source file
+# Databricks notebook source file.
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName("Medallion Data Processing").getOrCreate()
