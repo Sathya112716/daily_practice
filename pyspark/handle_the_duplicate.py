@@ -23,7 +23,7 @@ df_remove_duplicate=df.dropDuplicates(['age'])
 print("Remove Duplicates using a specific column")
 df_remove_duplicate.show()
 
-#Remove duplicates using multiple columns
+#Remove duplicates using multiple columns:
 df_remove_multiple=df.dropDuplicates(['name','age'])
 print("Remove Duplicates using multiple columns:")
 df_remove_multiple.show()
