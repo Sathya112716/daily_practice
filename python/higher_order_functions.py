@@ -10,7 +10,7 @@ def multiply(x, y):
 def apply_operation(operation, x, y):
     return operation(x, y)
 
-# Test the functions
+# Test the functions:
 print(apply_operation(add, 5, 3))
 print(apply_operation(subtract, 10, 4))
 print(apply_operation(multiply, 2, 7))
