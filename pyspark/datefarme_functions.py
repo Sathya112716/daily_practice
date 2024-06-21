@@ -1,4 +1,4 @@
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col #
 from pyspark.sql.functions import when
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("DataFrame Functions").getOrCreate()
