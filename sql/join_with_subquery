@@ -33,7 +33,7 @@ VALUES
     (4, 'Marketing');
 
 
-#Join with Subquery
+#Join with Subquery:
 SELECT dept_id, dept_name, total_salary
 FROM (
     SELECT dept_id, dept_name, SUM(salary) AS total_salary
