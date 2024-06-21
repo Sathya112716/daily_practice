@@ -33,7 +33,7 @@ VALUES
     (4, 'Marketing');
 
 
-# Window Function with Aggregate
+# Window Function with Aggregate:
 SELECT dept_id, dept_name, AVG(salary) AS avg_salary,
        RANK() OVER (ORDER BY AVG(salary) DESC) AS dept_rank
 FROM employees
