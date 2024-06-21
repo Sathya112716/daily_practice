@@ -9,7 +9,7 @@ class Rectangle:
     def calculate_perimeter(self):
         return 2 * (self.length + self.width)
 
-# Test the class
+# Test the :
 rectangle = Rectangle(5, 3)
 print("Area:", rectangle.calculate_area())
 print("Perimeter:", rectangle.calculate_perimeter())
