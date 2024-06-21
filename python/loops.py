@@ -4,5 +4,5 @@ def factorial(n):
         result *= i
     return result
 
-# Test the function
+# Test the function:
 print(factorial(5))
