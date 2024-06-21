@@ -1,4 +1,4 @@
-def prime_number(n):
+def prime_number(n):#function defined
     if n <= 1:
         return False
     for i in range(2, n):
