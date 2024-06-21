@@ -32,7 +32,7 @@ VALUES
     (3, 'IT'),
     (4, 'Marketing');
 
--- Query 1: Window Function
+-- Query 1: Window Function:
 SELECT emp_id, emp_name, dept_id, salary
 FROM (
     SELECT emp_id, emp_name, dept_id, salary,
