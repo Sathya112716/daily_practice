@@ -6,5 +6,5 @@ def is_prime(n):
             return False
     return True
 
-# Test the function
+# Test the function:
 print(is_prime(17))
