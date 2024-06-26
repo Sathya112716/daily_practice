@@ -8,7 +8,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print("Even numbers:", even_numbers)
 
-# Example 3: Doubling each element in a list using a lambda function with map()
+# Example 3: Doubling each element in a list using a lambda function with map():
 numbers = [1, 2, 3, 4, 5]
 doubled_numbers = list(map(lambda x: x * 2, numbers))
 print("Doubled numbers:", doubled_numbers)
