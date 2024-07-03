@@ -1,4 +1,4 @@
-#Function to Calculate the Area of a Circle
+#Function to Calculate the Area of a Circle:
 import math
 
 def area_of_circle(radius):
