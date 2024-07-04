@@ -1,7 +1,6 @@
 import pyspark
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("RDD Actions").getOrCreate()
-
 # Parallelize a list to create a new RDD:
 data = [1,5,6,3,9,4]
 rdd = spark.sparkContext.parallelize(data) #create a rddd
