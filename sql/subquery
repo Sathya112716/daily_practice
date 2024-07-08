@@ -1,4 +1,4 @@
--- Create Employees Table
+-- Create Employees Table function
 CREATE TABLE employees (
     emp_id INT PRIMARY KEY,
     emp_name VARCHAR(50),
