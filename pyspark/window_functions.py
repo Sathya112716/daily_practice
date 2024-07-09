@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.window import Window
 from pyspark.sql.functions import row_number, rank, dense_rank, lead, lag
-#create a spark session
+#create a spark session for window fucntioncd
 spark = SparkSession.builder.appName("Window Functions").getOrCreate()
 
 data = [
