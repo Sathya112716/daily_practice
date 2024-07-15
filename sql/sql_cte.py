@@ -1,4 +1,4 @@
-# Databricks notebook source
+# Databricks notebook source file
 CREATE TABLE employees (
     employee_id INT,
     first_name VARCHAR(50),
