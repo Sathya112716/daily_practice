@@ -183,3 +183,29 @@ while start != -1:
 # COMMAND ----------
 
 
+# Databricks notebook source
+df=spark.read.csv('dbfs:/FileStore/csv_pyspark.csv')
+df.show()
+
+# COMMAND ----------
+
+rdd=sc.textFile('dbfs:/FileStore/csv_pyspark.csv').zipWithIndex().filter(lambda a:a[1]>3).map(lambda a:a[0].split(','))
+rdd.collect()
+
+# COMMAND ----------
+
+column_rdd=rdd.first()
+column_rdd
+
+# COMMAND ----------
+
+main_rdd=rdd.filter(lambda a:a!=column_rdd)
+df=main_rdd.toDF(column_rdd)
+
+# COMMAND ----------
+
+display(df)
+
+# COMMAND ----------
+
+
